@@ -1,13 +1,16 @@
+/* TODO LIST */
 #todoList {
     margin: 50px 0;
     height: 40px;
 }
 
-ul li:active {
-    transform: rotate(2deg);
-    background: #ccc;
-    border-color: #999;
-    box-shadow: 0 2px 3px 3px #111;
+.inpDecor {
+    color: black;
+}
+
+#removeItem {
+    float: right;
+    margin: 15px 25px 0;
 }
 
 .placeholderBox {
@@ -16,18 +19,24 @@ ul li:active {
     border: dashed 2px #777;
 }
 
-/* TODO LIST */
+.createNewElement {
+    background: #444;
+}
+
 #todoListWrapper {
     width: 960px;
     text-align: center;
 }
+
 #todoList:after {
     clear: both;
     display: table;
     content: "";
 }
+
 #todoList ul {
     list-style-type: none;
+    color: white;
     float: left;
     width: 14.28%;
     margin: 0;
@@ -37,6 +46,7 @@ ul li:active {
 
 #todoList li {
     background: none;
+    color: white;
     padding: 5px;
     border:none;
     margin: 0;
@@ -45,12 +55,11 @@ ul li:active {
 }
 
 #todoList li:hover {
-    background: #eee;
+    background: lightslategrey;
 }
 
 #todoList li.listTitle {
     background: #444;
-    color: white;
     padding: 10px;
     text-align: center;
     border-right: solid 1px white;
