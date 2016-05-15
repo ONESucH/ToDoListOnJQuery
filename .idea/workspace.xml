@@ -1,7 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71955d40-9f9c-4aa3-801f-33a634807396" name="Default" comment="" />
+    <list default="true" id="71955d40-9f9c-4aa3-801f-33a634807396" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ToDolist-I/js/todoList.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/books.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/first_site/book.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/first_site/Заголовки/Help.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/first_site/Заголовки/NewTehnologi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/first_site/Заголовки/battery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/first_site/Заголовки/book.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/first_site/Заголовки/book.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/first_site/Заголовки/palochki.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/first_site/Заголовки/phones Apple и Android.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/first_site/Заголовки/Пуля.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/first_site/Заголовки/тату-батарейка.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Всплывающее окно/okno.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Всплывающее окно/okno.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/4515.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/5301_631b.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/anime_banner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/banana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/bf1d166c228756c92bc6b9ca958eded8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Gif/welcome.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/64661.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-10472.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-53697.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-54070.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-54564.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-54716.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-56374.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-58342.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-61259.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-66628.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-70033.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-71173.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-72445.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/anywalls.com-73495.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/HD/luxfon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/0502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/1337114708_proz.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/FastBattery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/_width40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/battery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/books.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/help.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/intro-slide-rev1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/nastolua-1036.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/nотуку.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/palachki.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/pulya.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/tatu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/wallpaper-202805.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Картинки/Jpeg/word.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Обучение/Переход на нов стр time.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../NotePad++/Обучение/обучение.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../AngularProject/angular-phonecat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Calculator/.idea/Js-Project.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Calculator/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Calculator/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Calculator/npm-debug.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Github/MyfirstApplicationOnJs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ToDoList-Js-" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ToDolist-I/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/debug.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/cd-icon-arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/cd-icon-check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/cd-icon-filter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/img/img-9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/js/jquery-2.1.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/js/jquery.mixitup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/js/mixitup-LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/js/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/partials/_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/partials/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/partials/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/readme.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../content-filter/scss/style.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TESTaNewLevelOfKnowledge" afterPath="$PROJECT_DIR$/../TESTaNewLevelOfKnowledge" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestJavascript" afterPath="$PROJECT_DIR$/../TestJavascript" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ToDoList" afterPath="$PROJECT_DIR$/../ToDoList" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Calculator/css/style.css" afterPath="$PROJECT_DIR$/../Calculator/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Calculator/index.html" afterPath="$PROJECT_DIR$/../Calculator/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Calculator/scripts/javascript.js" afterPath="$PROJECT_DIR$/../Calculator/scripts/javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ToDolist-I/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../ToDolist-I/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ToDolist-I/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ToDolist-I/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ToDolist-I/css/style.css" afterPath="$PROJECT_DIR$/../ToDolist-I/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ToDolist-I/index.html" afterPath="$PROJECT_DIR$/../ToDolist-I/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ToDolist-I/js/javascript.js" afterPath="$PROJECT_DIR$/../ToDolist-I/js/javascript.js" />
+    </list>
     <ignored path="ToDoListOnJQUERY.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,31 +143,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5614887">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="571">
-                  <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+                <state relative-caret-position="630">
+                  <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="639">
-                  <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+                <state relative-caret-position="503">
+                  <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -61,8 +170,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+                <state relative-caret-position="256">
+                  <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -72,14 +181,21 @@
       </split-second>
     </splitter>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path>$USER_HOME$/AppData/Roaming/npm/bower.cmd</exe-path>
+    <config-path />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -96,7 +212,7 @@
     <option name="width" value="1296" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -121,7 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -141,14 +256,33 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoListOnJQUERY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoListOnJQUERY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ToDolist-I/js/javascript.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\Programm\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path" value="D:\Programm\nodejs\node" />
+    <property name="jsx.switch.disabled" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -206,11 +340,16 @@
       <workItem from="1462971396727" duration="2565000" />
       <workItem from="1463038719810" duration="2356000" />
       <workItem from="1463047110717" duration="10693000" />
+      <workItem from="1463135695369" duration="4320000" />
+      <workItem from="1463142593912" duration="3770000" />
+      <workItem from="1463159394755" duration="134000" />
+      <workItem from="1463214330438" duration="4880000" />
+      <workItem from="1463303941587" duration="9159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56096000" />
+    <option name="totallyTimeSpent" value="78359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -220,7 +359,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -247,10 +386,124 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -474,10 +727,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../ToDolist-I/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        <state relative-caret-position="-1581">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ToDolist-I/js/todoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="35" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -485,18 +752,49 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ToDolist-I/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="116" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+        <state relative-caret-position="503">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

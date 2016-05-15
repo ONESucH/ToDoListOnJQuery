@@ -1,147 +1,91 @@
-//========TO DO LIST========
-var dataTODO = [];
-
-var allTask = {
-    addItemLiMonday : document.getElementById('addItemLiMonday'),
-    addItemLiTuesday : document.getElementById('addItemLiTuesday'),
-    addItemLiWednesday : document.getElementById('addItemLiWednesday'),
-    addItemLiThursday : document.getElementById('addItemLiThursday'),
-    addItemLiFriday : document.getElementById('addItemLiFriday'),
-    addItemLiSaturday : document.getElementById('addItemLiSaturday'),
-    addItemLiSunday : document.getElementById('addItemLiSunday'),
-    inpMonday : document.getElementById('inpMonday'),
-    inpTuesday : document.getElementById('inpTuesday'),
-    inpWednesday : document.getElementById('inpWednesday'),
-    inpThursday : document.getElementById('inpThursday'),
-    inpFriday : document.getElementById('inpFriday'),
-    inpSaturday : document.getElementById('inpSaturday'),
-    inpSunday : document.getElementById('inpSunday'),
-    removeItem : document.getElementById('removeItem')
+var dataTodo = setStoragDataAndGet('read') || [];
+var curHash = location.hash.split('#')[1] || 'active';
+var elementsTodo = {
+    buttonsStatus: {
+        active: $('#active'),
+        done: $('#done'),
+        remove: $('#remove')
+    },
+    labelWithText: $('#addNewTaskTodoList'),
+    btnAdd: $('#addBtnTodoList'),
+    list: $('#taskList')
 };
+changeHashName(curHash);
 
-$('#inpMonday').click( function () {
-    var inputWriteText = allTask.inpMonday.value;
-    var inputLength = inputWriteText.length;
-    if (inputLength === 0) {
-        return;
+elementsTodo.btnAdd.on('click', function () {
+    var lengthTask = elementsTodo.labelWithText.val().length;
+    if (!lengthTask || lengthTask > 45) {
+        return false
     }
-    if (inputLength >= 16) {
-        alert('Можно использовать максимум 15 символов, вы использовали - ' + inputLength);
-        allTask.inpMonday.value = '';
-        return false;
-    }
-    dataTODO.push(inputWriteText);
-    allTask.inpMonday.value = '';
-    console.log('Удалено', allTask.inpMonday, '\nДобавлено в массив - ', dataTODO);
-
-    $('#ulMonday').append('<li>' + inputWriteText + '</li>').addClass('createNewElement');
-    console.log('Вся функция работает... ', inputWriteText);
+    dataTodo.push({
+        title: elementsTodo.labelWithText.val(),
+        status: 'active',
+        id: dataTodo.length
+    });
+    elementsTodo.labelWithText.val('');
+    location.hash = 'active';
+    renderTodoList('active');
 });
 
-$('#ulTuesday').click( function () {
-    var inputWriteText = allTask.inpTuesday.value;
-    var inputLength = inputWriteText.length;
-    if (inputLength === 0) {
-        return;
-    }
-    if (inputLength >= 16) {
-        alert('Можно использовать максимум 15 символов, вы использовали - ' + inputLength);
-        allTask.inpTuesday.value = '';
-        return false;
-    }
-    dataTODO.push(inputWriteText);
-    allTask.inpTuesday.value = '';
-
-    $('#ulTuesday').append('<li>' + inputWriteText + '</li>').addClass('createNewElement');
-    console.log('Вся функция работает... ', inputWriteText);
+window.addEventListener('hashchange', function (e) {
+    var curHash = e.newURL.split('#')[1];
+    changeHashName(curHash);
 });
 
-$('#ulWednesday').click( function () {
-    var inputWriteText = allTask.inpWednesday.value;
-    var inputLength = inputWriteText.length;
-    if (inputLength === 0) {
-        return;
-    }
-    if (inputLength >= 16) {
-        alert('Можно использовать максимум 15 символов, вы использовали - ' + inputLength);
-        allTask.inpWednesday.value = '';
-        return false;
-    }
-    dataTODO.push(inputWriteText);
-    allTask.inpWednesday.value = '';
 
-    $('#ulWednesday').append('<li>' + inputWriteText + '</li>').addClass('createNewElement');
-    console.log('Вся функция работает... ', inputWriteText);
-});
+function changeHashName(hashName) {
+    $.each(elementsTodo.buttonsStatus, function (key, value) {
+        value.removeClass('active');
+    });
+    elementsTodo.buttonsStatus[hashName].addClass('active');
+    renderTodoList(hashName);
+}
 
-$('#ulThursday').click( function () {
-    var inputWriteText = allTask.inpThursday.value;
-    var inputLength = inputWriteText.length;
-    if (inputLength === 0) {
-        return;
-    }
-    if (inputLength >= 16) {
-        alert('Можно использовать максимум 15 символов, вы использовали - ' + inputLength);
-        allTask.inpThursday.value = '';
-        return false;
-    }
-    dataTODO.push(inputWriteText);
-    allTask.inpThursday.value = '';
+function renderTodoList(status) {
+    setStoragDataAndGet('save');
+    var html = '';
+    dataTodo.forEach(function (item) {
+        if (status === 'active' && item.status === 'active') {
+            html += "<li class='list-group-item list-group-item-success blockItem' onclick='doneTask(" + item.id + ")'><img src='img/ico_mus.png' class='img-rounded' onclick='removeTask("+ item.id +")'>" + item.title + "</li>";
+        }
+        if (status === 'done' && item.status === 'done') {
+            html += "<li class='list-group-item list-group-item-info blockItem' onclick='activeTask(" + item.id + ")'><img src='img/ico_mus.png' class='img-rounded' onclick='removeTask("+ item.id +")'>" + item.title + "</li>";
+        }
+        if (status === 'remove' && item.status === 'remove') {
+            html += "<li class='list-group-item list-group-item-danger blockItem' onclick='unDoneTask("+ item.id +")'><img src='img/return.png' class='img-rounded' onclick='removeTask("+ item.id +")'>" + item.title + "</li>";
+        }
+        console.log(item.status);
+    });
+    elementsTodo.list.html(html);
+}
 
-    $('#ulThursday').append('<li>' + inputWriteText + '</li>').addClass('createNewElement');
-    console.log('Вся функция работает... ', inputWriteText);
-});
+function activeTask(id) {
+    dataTodo[id].status = 'active';
+    renderTodoList('done');
+}
 
-$('#ulFriday').click( function () {
-    var inputWriteText = allTask.inpFriday.value;
-    var inputLength = inputWriteText.length;
-    if (inputLength === 0) {
-        return;
-    }
-    if (inputLength >= 16) {
-        alert('Можно использовать максимум 15 символов, вы использовали - ' + inputLength);
-        allTask.inpFriday.value = '';
-        return false;
-    }
-    dataTODO.push(inputWriteText);
-    allTask.inpFriday.value = '';
+function doneTask(id) {
+    dataTodo[id].status = 'done';
+    renderTodoList('active');
+}
 
-    $('#ulFriday').append('<li>' + inputWriteText + '</li>').addClass('createNewElement');
-    console.log('Вся функция работает... ', inputWriteText);
-});
+function unDoneTask(id) {
+    dataTodo[id].status = 'active';
+    renderTodoList('done');
+}
 
-$('#ulSaturday').click( function () {
-    var inputWriteText = allTask.inpSaturday.value;
-    var inputLength = inputWriteText.length;
-    if (inputLength === 0) {
-        return;
+function removeTask(id) {
+    setTimeout(function () {
+        dataTodo[id].status = 'remove';
+    }, 100);
+    location.hash = 'active';
+}
+function setStoragDataAndGet(type) {
+    if (type === 'read') {
+        return JSON.parse(localStorage.getItem('todo'));
     }
-    if (inputLength >= 16) {
-        alert('Можно использовать максимум 15 символов, вы использовали - ' + inputLength);
-        allTask.inpSaturday.value = '';
-        return false;
+    if (type === 'save') {
+        var todoListToJson = JSON.stringify(dataTodo);
+        localStorage.setItem('todo', todoListToJson);
     }
-    dataTODO.push(inputWriteText);
-    allTask.inpSaturday.value = '';
-
-    $('#ulSaturday').append('<li>' + inputWriteText + '</li>').addClass('createNewElement');
-    console.log('Вся функция работает... ', inputWriteText);
-});
-
-$('#ulSunday').click( function () {
-    var inputWriteText = allTask.inpSunday.value;
-    var inputLength = inputWriteText.length;
-    if (inputLength === 0) {
-        return;
-    }
-    if (inputLength >= 16) {
-        alert('Можно использовать максимум 15 символов, вы использовали - ' + inputLength);
-        allTask.inpSunday.value = '';
-        return false;
-    }
-    dataTODO.push(inputWriteText);
-    allTask.inpSunday.value = '';
-
-    $('#ulSunday').append('<li>' + inputWriteText + '</li>').addClass('createNewElement');
-    console.log('Вся функция работает... ', inputWriteText);
-});
+}
