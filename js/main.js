@@ -1,4 +1,4 @@
-var dataTodo = setStoragDataAndGet('read') || [];
+var dataTodo = setStorageDataAndGet('read') || [];
 var curHash = location.hash.split('#')[1] || 'active';
 var elementsTodo = {
     buttonsStatus: {
@@ -32,7 +32,6 @@ window.addEventListener('hashchange', function (e) {
     changeHashName(curHash);
 });
 
-
 function changeHashName(hashName) {
     $.each(elementsTodo.buttonsStatus, function (key, value) {
         value.removeClass('active');
@@ -42,17 +41,17 @@ function changeHashName(hashName) {
 }
 
 function renderTodoList(status) {
-    setStoragDataAndGet('save');
+    setStorageDataAndGet('save');
     var html = '';
     dataTodo.forEach(function (item) {
         if (status === 'active' && item.status === 'active') {
             html += "<li class='list-group-item list-group-item-success blockItem' onclick='doneTask(" + item.id + ")'><img src='img/ico_mus.png' class='img-rounded' onclick='removeTask("+ item.id +")'>" + item.title + "</li>";
         }
         if (status === 'done' && item.status === 'done') {
-            html += "<li class='list-group-item list-group-item-info blockItem' onclick='activeTask(" + item.id + ")'><img src='img/ico_mus.png' class='img-rounded' onclick='removeTask("+ item.id +")'>" + item.title + "</li>";
+            html += "<li class='list-group-item list-group-item-info blockItem' onclick='activeTask(" + item.id + ")'><img src='img/ico_mus.png' class='img-rounded' onclick='removeTaskOfDone("+ item.id +")'>" + item.title + "</li>";
         }
         if (status === 'remove' && item.status === 'remove') {
-            html += "<li class='list-group-item list-group-item-danger blockItem' onclick='unDoneTask("+ item.id +")'><img src='img/return.png' class='img-rounded' onclick='removeTask("+ item.id +")'>" + item.title + "</li>";
+            html += "<li class='list-group-item list-group-item-danger blockItem'><img src='img/return.png' class='img-rounded' onclick='returnDoneTask("+ item.id +")'>" + item.title + "</li>";
         }
         console.log(item.status);
     });
@@ -69,18 +68,25 @@ function doneTask(id) {
     renderTodoList('active');
 }
 
-function unDoneTask(id) {
+function returnDoneTask(id) {
     dataTodo[id].status = 'active';
+    renderTodoList('remove');
+}
+
+function removeTaskOfDone(id) {
+    setTimeout(function () {
+        dataTodo[id].status = 'remove';
+    }, 50);
     renderTodoList('done');
 }
 
 function removeTask(id) {
     setTimeout(function () {
         dataTodo[id].status = 'remove';
-    }, 100);
-    location.hash = 'active';
+    }, 50);
+    renderTodoList('active');
 }
-function setStoragDataAndGet(type) {
+function setStorageDataAndGet(type) {
     if (type === 'read') {
         return JSON.parse(localStorage.getItem('todo'));
     }
