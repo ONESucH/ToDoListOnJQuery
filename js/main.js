@@ -1,28 +1,30 @@
 var dataTodo = setStorageDataAndGet('read') || [];
 var curHash = location.hash.split('#')[1] || 'active';
-var elementsTodo = {
-    buttonsStatus: {
-        active: $('#active'),
-        done: $('#done'),
-        remove: $('#remove')
-    },
-    labelWithText: $('#addNewTaskTodoList'),
-    btnAdd: $('#addBtnTodoList'),
-    list: $('#taskList')
+var allTask = {
+  buttonsItem: {
+      active: $('#active'),
+      done: $('#done'),
+      remove: $('#remove')
+  },
+    addNewTaskTodoList : $('#addNewTaskTodoList'),
+    addBtnTodoList : $('#addBtnTodoList'),
+    taskList : $('#taskList')
 };
+
 changeHashName(curHash);
 
-elementsTodo.btnAdd.on('click', function () {
-    var lengthTask = elementsTodo.labelWithText.val().length;
-    if (!lengthTask || lengthTask > 45) {
+allTask.addBtnTodoList.on('click', function () {
+    var lengthTask = allTask.addNewTaskTodoList.val().length;
+    if (!lengthTask || lengthTask > 15) {
+        alert('Максимум можно использоваьть 15 символов, у вас их - ' + lengthTask);
         return false
     }
     dataTodo.push({
-        title: elementsTodo.labelWithText.val(),
-        status: 'active',
-        id: dataTodo.length
+        title : allTask.addNewTaskTodoList.val(),
+        status : 'active',
+        id : dataTodo.length
     });
-    elementsTodo.labelWithText.val('');
+    allTask.addNewTaskTodoList.val('');
     location.hash = 'active';
     renderTodoList('active');
 });
@@ -33,59 +35,59 @@ window.addEventListener('hashchange', function (e) {
 });
 
 function changeHashName(hashName) {
-    $.each(elementsTodo.buttonsStatus, function (key, value) {
+    $.each(allTask.buttonsItem, function (key, value) {
         value.removeClass('active');
     });
-    elementsTodo.buttonsStatus[hashName].addClass('active');
+    allTask.buttonsItem[hashName].addClass('active');
     renderTodoList(hashName);
 }
 
 function renderTodoList(status) {
     setStorageDataAndGet('save');
     var html = '';
-    dataTodo.forEach(function (item) {
+    dataTodo.forEach( function (item) {
         if (status === 'active' && item.status === 'active') {
-            html += "<li class='list-group-item list-group-item-success blockItem' onclick='doneTask(" + item.id + ")'><img src='img/ico_mus.png' class='img-rounded' onclick='removeTask("+ item.id +")'>" + item.title + "</li>";
+            html += "<li class='list-group-item list-group-item-success blockItem' onclick='activeTask(" + item.id + ")'>" + item.title + "<i class='fa fa-trash flo-right' aria-hidden='true' onclick='removeTask(" + item.id + ")'>" + "</i>" + "</li>";
         }
         if (status === 'done' && item.status === 'done') {
-            html += "<li class='list-group-item list-group-item-info blockItem' onclick='activeTask(" + item.id + ")'><img src='img/ico_mus.png' class='img-rounded' onclick='removeTaskOfDone("+ item.id +")'>" + item.title + "</li>";
+            html += "<li class='list-group-item list-group-item-warning blockItem' onclick='unDoneTask(" + item.id + ")'>" + item.title + "<i class='fa fa-trash flo-right' aria-hidden='true' onclick='taskRemoveItDone(" + item.id + ")'>" + "</i>" + "</li>";
         }
         if (status === 'remove' && item.status === 'remove') {
-            html += "<li class='list-group-item list-group-item-danger blockItem'><img src='img/return.png' class='img-rounded' onclick='returnDoneTask("+ item.id +")'>" + item.title + "</li>";
+            html += "<li class='list-group-item list-group-item-danger blockItem' onclick='unRemoveTask(" + item.id + ")'>" + item.title + "<i class='fa fa-reply-all flo-right' aria-hidden='true'>" + "</i>" + "</li>";
         }
-        console.log(item.status);
     });
-    elementsTodo.list.html(html);
+    allTask.taskList.html(html);
 }
 
 function activeTask(id) {
-    dataTodo[id].status = 'active';
-    renderTodoList('done');
-}
-
-function doneTask(id) {
     dataTodo[id].status = 'done';
     renderTodoList('active');
 }
 
-function returnDoneTask(id) {
-    dataTodo[id].status = 'active';
-    renderTodoList('remove');
+function removeTask(id) {
+    setTimeout( function () {
+        dataTodo[id].status = 'remove';
+    }, 500);
+    renderTodoList('active');
 }
 
-function removeTaskOfDone(id) {
-    setTimeout(function () {
+function taskRemoveItDone(id) {
+    setTimeout( function () {
         dataTodo[id].status = 'remove';
-    }, 50);
+    }, 500);
     renderTodoList('done');
 }
 
-function removeTask(id) {
-    setTimeout(function () {
-        dataTodo[id].status = 'remove';
-    }, 50);
-    renderTodoList('active');
+function unDoneTask(id) {
+    dataTodo[id].status = 'active';
+    renderTodoList('done')
 }
+
+function unRemoveTask(id) {
+    dataTodo[id].status = 'active';
+    renderTodoList('remove')
+}
+
 function setStorageDataAndGet(type) {
     if (type === 'read') {
         return JSON.parse(localStorage.getItem('todo'));
